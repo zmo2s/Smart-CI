@@ -1,0 +1,16 @@
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test:unit": "jest tests/unit",
+    "test:functional": "jest tests/functional",
+    "test:e2e": "jest tests/e2e"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "supertest": "^6.3.3",
+    "express": "^4.18.2"
+  }
+}
